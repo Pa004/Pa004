@@ -1,0 +1,12 @@
+name: Latest Blog Post
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://TU-FEED-RSS-AQUI"
