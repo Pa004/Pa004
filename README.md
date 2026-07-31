@@ -29,7 +29,7 @@ Desarrollo end-to-end: arquitectura, backend, frontend, autenticación y testing
 Beca por Distinción Académica — top quintil de la cohorte.
 
 **Investigación académica**
-Artículo científico en preparación para [IEEE BigData 2026](https://bigdataieee.org/BigData2026/calls/papers/) (envío: 21 ago 2026).
+Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbullying Detection in Ecuadorian Spanish Social Media"* — enviado a [IEEE BigData 2026](https://bigdataieee.org/BigData2026/calls/papers/), en revisión (notificación: 24 oct. 2026).
 
 ---
 
