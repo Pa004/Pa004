@@ -172,10 +172,38 @@ src="https://github-readme-stats-sigma-five.vercel.app/api?username=Pa004&show_i
 
 ---
 
-### 📰 Actividad reciente
+### 📜 Certificaciones
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+**🤖 AI Engineer for Developers Associate**
+
+![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)
+
+OpenAI API · Embeddings · Búsqueda semántica · Sistemas conversacionales
+
+*Junio 2026*
+
+</td>
+<td width="50%" align="center">
+
+**📊 Data Engineer Certificate**
+
+![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)
+
+Pipelines de datos · ETL · Data Warehousing · Infraestructura de datos
+
+*Junio 2026*
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <!--
 ### ⏱️ WakaTime (opcional)
