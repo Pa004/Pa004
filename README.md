@@ -36,7 +36,7 @@ Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbull
 ### 🛠️ Tecnologías
 
 <div align="center">
-  
+
 **Frontend**
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -142,10 +142,7 @@ Sistema de autenticación completo.
 
 <div align="center">
 
-<!-- Reemplaza esta imagen con una captura real de tu portfolio (arrástrala a este README en GitHub o súbela y pega el link aquí) -->
 <img width="1610" height="827" alt="image" src="https://github.com/user-attachments/assets/874139d5-ab11-4c92-9f30-202a1b681a93" />
-
-
 
 **[Ver portfolio completo →](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
 
@@ -172,6 +169,13 @@ src="https://github-readme-stats-sigma-five.vercel.app/api?username=Pa004&show_i
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Pa004&theme=tokyo-night&hide_border=true)
 
 </div>
+
+---
+
+### 📰 Actividad reciente
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 <!--
 ### ⏱️ WakaTime (opcional)
