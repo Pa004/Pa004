@@ -180,9 +180,9 @@ src="https://github-readme-stats-sigma-five.vercel.app/api?username=Pa004&show_i
 <tr>
 <td width="50%" align="center">
 
-**🤖 AI Engineer for Developers Associate**
+**[🤖 AI Engineer for Developers Associate](https://www.datacamp.com/certificate/AIEDA0010543717785)**
 
-![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)
+[![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/AIEDA0010543717785)
 
 OpenAI API · Embeddings · Búsqueda semántica · Sistemas conversacionales
 
@@ -191,9 +191,9 @@ OpenAI API · Embeddings · Búsqueda semántica · Sistemas conversacionales
 </td>
 <td width="50%" align="center">
 
-**📊 Data Engineer Certificate**
+**[📊 Data Engineer Certificate](https://www.datacamp.com/certificate/DE0015585598056)**
 
-![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)
+[![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white)](https://www.datacamp.com/certificate/DE0015585598056)
 
 Pipelines de datos · ETL · Data Warehousing · Infraestructura de datos
 
