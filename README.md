@@ -156,7 +156,7 @@ Sistema de autenticación completo.
 
 <img
 height="165"
-src="https://github-readme-stats.vercel.app/api?username=Pa004&show_icons=true&theme=tokyonight&hide_border=true"/>
+src="https://github-readme-stats-nine-lilac-59.vercel.app/api?username=Pa004&show_icons=true&theme=tokyonight&hide_border=true"/>
 
 </div>
 
