@@ -18,6 +18,8 @@
 
 ---
 
+<a id="english"></a>
+
 ## English
 
 ### 👋 About me
@@ -222,6 +224,8 @@ Data pipelines · ETL · Data Warehousing · Data infrastructure
 </div>
 
 ---
+
+<a id="español"></a>
 
 ## Español
 
