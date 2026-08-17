@@ -67,7 +67,7 @@ function statsSvg(profile, repos) {
   const items = metrics
     .map(([label, value], i) => {
       const x = i % 2 === 0 ? 120 : 360;
-      const y = i < 2 ? 86 : 126;
+      const y = i < 2 ? 90 : 150;
       return [
         `<text x="${x}" y="${y}" font-family='${FONT_STACK}' font-size="28" font-weight="700" text-anchor="middle" fill="${COLORS.text}">${esc(value)}</text>`,
         `<text x="${x}" y="${y + 28}" font-family='${FONT_STACK}' font-size="12" text-anchor="middle" fill="${COLORS.muted}">${esc(label)}</text>`,
@@ -75,8 +75,8 @@ function statsSvg(profile, repos) {
     })
     .join("\n  ");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_WIDTH}" height="170" viewBox="0 0 ${CARD_WIDTH} 170" role="img" aria-label="GitHub stats for ${USERNAME}">
-  <rect x="0.5" y="0.5" width="${CARD_WIDTH - 1}" height="169" rx="12" fill="${COLORS.bg}" stroke="${COLORS.border}"/>
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${CARD_WIDTH}" height="194" viewBox="0 0 ${CARD_WIDTH} 194" role="img" aria-label="GitHub stats for ${USERNAME}">
+  <rect x="0.5" y="0.5" width="${CARD_WIDTH - 1}" height="193" rx="12" fill="${COLORS.bg}" stroke="${COLORS.border}"/>
   <text x="24" y="34" font-family='${FONT_STACK}' font-size="16" font-weight="600" fill="${COLORS.text}">GitHub Stats</text>
   <rect x="24" y="44" width="48" height="3" rx="1.5" fill="${COLORS.accent}"/>
   ${items}
