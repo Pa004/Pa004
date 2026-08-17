@@ -1,10 +1,16 @@
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React+%7C+TypeScript+%7C+Node.js;Estudiante+de+Ingenier%C3%ADa+en+Software;Abierto+a+trabajo+remoto+%F0%9F%8C%8E" alt="Typing SVG" />
-</a>
+<img src=".gitskins/wordmark.svg" alt="Pablo Domínguez" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=Pa004&color=2E9EF7&style=flat-square&label=Visitas+al+perfil)
+<br />
+
+<a href="mailto:pablodo004@gmail.com"><img src="https://img.shields.io/badge/Open_to_work-16a34a?style=flat-square" alt="Open to work" /></a>
+<img src="https://img.shields.io/badge/Remote-2E9EF7?style=flat-square" alt="Remote" />
+<img src="https://img.shields.io/badge/Ecuador_(GMT--5)-64748b?style=flat-square" alt="Ecuador (GMT-5)" />
+
+<br />
+
+<img src=".gitskins/portrait.svg" alt="ASCII portrait" width="240" />
 
 </div>
 
@@ -25,7 +31,7 @@ Full Stack Developer especializado en React, TypeScript y Node.js. Desarrollo ap
 **Full Stack Developer (Freelance)** — Summer Dent · Roomify
 Desarrollo end-to-end: arquitectura, backend, frontend, autenticación y testing.
 
-**Estudiante de Ingeniería en Software** — ESPE, Ecuador
+**Estudiante de Ingeniería en Software** — ESPE, Ecuador · 2022 — presente
 Beca por Distinción Académica — top quintil de la cohorte.
 
 **Investigación académica**
@@ -37,40 +43,19 @@ Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbull
 
 <div align="center">
 
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-**Backend**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Herramientas & DevOps**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-005571?style=for-the-badge)
-
-**Bases de datos**
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-**Mobile**
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-**Otros**
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+<img src=".gitskins/languages.png" alt="Lenguajes más usados" />
 
 </div>
+
+**Frontend:** `React` `TypeScript` `JavaScript` `Next.js` `Tailwind CSS` `Vite`
+
+**Backend:** `Node.js` `Express` `Python` `REST APIs` `JWT`
+
+**Datos:** `MongoDB` `PostgreSQL` `Supabase`
+
+**Mobile:** `Flutter` `Dart` `Clean Architecture` `BLoC`
+
+**DevOps & testing:** `Docker` `Vercel` `Cypress` `Jest`
 
 ---
 
@@ -93,7 +78,9 @@ Sistema de gestión dental **en producción**, multi-sede.
 - Autenticación JWT · roles por sede
 - Testing E2E con Cypress
 
-`React` `Vite` `Node.js` `Express.js` `JWT` `Cypress`
+`React` `Vite` `Node.js` `Express` `JWT` `Cypress`
+
+*Código privado.*
 
 </td>
 <td width="50%">
@@ -134,6 +121,29 @@ Sistema de autenticación completo.
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+**[futboltipster](https://github.com/Pa004/futboltipster)**
+
+Predicciones estadísticas de fútbol (1X2 y ~20 mercados derivados) con modelos Dixon-Coles y Negative-Binomial y bandas de confianza.
+- Monorepo full-stack: ml-service FastAPI, servidor Express, web React
+
+`TypeScript` `Python` `FastAPI` `React` `Express`
+
+</td>
+<td width="50%">
+
+**[chatcito](https://github.com/Pa004/chatcito)**
+
+Chat en tiempo real con Flutter y Firebase.
+- Autenticación segura y mensajería privada
+- Push notifications con FCM · Riverpod y Material 3
+
+`Dart` `Flutter` `Firebase` `Riverpod`
+
+</td>
+</tr>
 </table>
 
 ---
@@ -142,7 +152,7 @@ Sistema de autenticación completo.
 
 <div align="center">
 
-<img width="1610" height="827" alt="image" src="https://github.com/user-attachments/assets/874139d5-ab11-4c92-9f30-202a1b681a93" />
+<img src="assets/portfolio.png" alt="Portfolio de Pablo Domínguez" />
 
 **[Ver portfolio completo →](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
 
@@ -154,19 +164,12 @@ Sistema de autenticación completo.
 
 <div align="center">
 
-<img
-height="165"
-src="https://github-readme-stats-nine-lilac-59.vercel.app/api?username=Pa004&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src=".gitskins/card.svg" alt="GitHub profile card" width="720" />
 
-</div>
+<br />
 
----
-
-### 📈 Gráfico de actividad
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Pa004&theme=tokyo-night&hide_border=true)
+<img src=".gitskins/stats.png" alt="GitHub stats" />
+<img src=".gitskins/streak.png" alt="Contribución streak" />
 
 </div>
 
@@ -205,23 +208,12 @@ Pipelines de datos · ETL · Data Warehousing · Infraestructura de datos
 
 </div>
 
-<!--
-### ⏱️ WakaTime (opcional)
-Descomenta esto si instalas la extensión de WakaTime en tu editor (VSCode/JetBrains).
-
-<div align="center">
-
-![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=TU_USUARIO_WAKATIME&theme=tokyonight&hide_border=true)
-
-</div>
--->
-
 ---
 
-### 🐍 Snake de contribuciones
+### 📈 Contribuciones
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Pa004/Pa004/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<img src=".gitskins/heatmap.svg" alt="Gráfico de contribuciones animado" />
 
 </div>

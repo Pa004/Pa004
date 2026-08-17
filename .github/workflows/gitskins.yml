@@ -1,0 +1,69 @@
+name: GitSkins
+
+# Re-renders your GitSkins profile widgets into committed files so your README
+# never hot-links gitskins.com (no broken images when the site is busy, and the
+# widgets refresh on a schedule instead of on every viewer's page load).
+
+on:
+  # Refresh once a day so stats stay current.
+  schedule:
+    - cron: "0 6 * * *"
+  # Also refresh when you edit the config.
+  push:
+    branches: [main]
+    paths:
+      - ".gitskins.json"
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gitskins
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Render widgets
+        # Pinned for reproducible runs; bump when you want new CLI features.
+        run: npx --yes gitskins@0.1.0 render
+
+      - name: Refresh decorative sections
+        # The CLI only renders data widgets, so the header/heatmap SVGs are
+        # fetched from the section API and committed here. On a failed fetch
+        # the previous committed file is kept so the README never breaks.
+        run: |
+          fetch_section() {
+            tmp="$1.tmp"
+            if curl -sSf -o "$tmp" "$2"; then
+              mv "$tmp" "$1"
+              echo "updated $1"
+            else
+              rm -f "$tmp"
+              echo "kept previous $1"
+            fi
+          }
+          fetch_section ".gitskins/wordmark.svg" "https://www.gitskins.com/api/section/wordmark?username=Pa004&theme=aurora&label=Pablo%20Dom%C3%ADnguez"
+          fetch_section ".gitskins/portrait.svg" "https://www.gitskins.com/api/section/portrait?username=Pa004&theme=aurora"
+          fetch_section ".gitskins/heatmap.svg" "https://www.gitskins.com/api/section/heatmap?username=Pa004&theme=aurora&style=snake"
+
+      - name: Commit refreshed widgets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .gitskins
+          if git diff --cached --quiet; then
+            echo "No widget changes."
+          else
+            git commit -m "chore(gitskins): refresh profile widgets"
+            git push
+          fi

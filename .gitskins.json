@@ -1,0 +1,11 @@
+{
+  "username": "Pa004",
+  "theme": "aurora",
+  "outputDir": ".gitskins",
+  "widgets": [
+    "card",
+    "languages",
+    "streak",
+    "stats"
+  ]
+}
