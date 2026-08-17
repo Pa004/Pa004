@@ -4,7 +4,7 @@
 
 # Pablo Domínguez
 
-**Full Stack Developer** · Ecuador (GMT-5) · Open to remote
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3500&pause=800&color=2F81F7&center=true&vCenter=true&width=620&height=40&lines=Full+Stack+Developer;React+%E2%80%A2+TypeScript+%E2%80%A2+Node.js;Software+Engineering+Student+%40+ESPE)](https://github.com/Pa004)
 
 [![Open to work](https://img.shields.io/badge/Open_to_work-16a34a?style=for-the-badge)](mailto:pablodo004@gmail.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablodo004@gmail.com)
@@ -26,6 +26,42 @@ Full Stack Developer especializado en React, TypeScript y Node.js. Desarrollo ap
 
 ---
 
+### 📊 Estadísticas
+
+<div align="center">
+
+<img src="assets/stats.svg" alt="Estadísticas de GitHub" width="440" />
+<img src="assets/languages.svg" alt="Lenguajes más usados" width="290" />
+
+<br />
+
+<img src="assets/streak.svg" alt="Racha de contribuciones" width="500" />
+
+</div>
+
+---
+
+### 📈 Actividad
+
+<div align="center">
+
+<img src="assets/activity-graph.svg" alt="Gráfico de actividad" width="760" />
+
+<br />
+
+<img src="assets/profile-3d.svg" alt="Calendario 3D de contribuciones" width="750" />
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
+  <img src="assets/snake.svg" alt="Serpiente de contribuciones" width="700" />
+</picture>
+
+</div>
+
+---
+
 ### 💼 Experiencia
 
 **Full Stack Developer (Freelance)** — Summer Dent · Roomify
@@ -40,6 +76,10 @@ Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbull
 ---
 
 ### 🛠️ Tecnologías
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,nextjs,tailwind,vite,nodejs,express,python,fastapi,mongodb,postgresql,supabase,flutter,dart,firebase,docker,vercel,jest,githubactions&perline=10" alt="Tech stack" />
+</p>
 
 **Frontend:** [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev/)
 
@@ -147,20 +187,6 @@ Sistema de autenticación completo.
 <img src="assets/portfolio.png" alt="Portfolio de Pablo Domínguez" width="720" />
 
 **[Ver portfolio completo →](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
-
-</div>
-
----
-
-### 📊 Estadísticas
-
-<div align="center">
-
-<img src="assets/stats.svg" alt="Estadísticas de GitHub" width="480" />
-
-<br />
-
-<img src="assets/languages.svg" alt="Lenguajes más usados" width="480" />
 
 </div>
 
