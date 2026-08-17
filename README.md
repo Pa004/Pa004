@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src=".gitskins/wordmark.svg" alt="Pablo Domínguez" />
+<img src="assets/avatar.svg" alt="Avatar de Pablo Domínguez" width="110" />
 
-<br />
+# Pablo Domínguez
 
-<a href="mailto:pablodo004@gmail.com"><img src="https://img.shields.io/badge/Open_to_work-16a34a?style=flat-square" alt="Open to work" /></a>
-<img src="https://img.shields.io/badge/Remote-2E9EF7?style=flat-square" alt="Remote" />
-<img src="https://img.shields.io/badge/Ecuador_(GMT--5)-64748b?style=flat-square" alt="Ecuador (GMT-5)" />
+**Full Stack Developer** · Ecuador (GMT-5) · Open to remote
 
-<br />
-
-<img src=".gitskins/portrait.svg" alt="ASCII portrait" width="240" />
+[![Open to work](https://img.shields.io/badge/Open_to_work-16a34a?style=for-the-badge)](mailto:pablodo004@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablodo004@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pabl004-dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pa004)
 
 </div>
 
@@ -41,21 +41,15 @@ Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbull
 
 ### 🛠️ Tecnologías
 
-<div align="center">
+**Frontend:** [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev/)
 
-<img src=".gitskins/languages.png" alt="Lenguajes más usados" />
+**Backend:** [![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/) [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) [![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat)](https://developer.mozilla.org/en-US/docs/Glossary/REST) [![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 
-</div>
+**Datos:** [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=black)](https://supabase.com/)
 
-**Frontend:** `React` `TypeScript` `JavaScript` `Next.js` `Tailwind CSS` `Vite`
+**Mobile:** [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/) [![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)](https://dart.dev/) [![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat&logo=firebase&logoColor=white)](https://firebase.google.com/) [![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-000000?style=flat)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) [![BLoC](https://img.shields.io/badge/BLoC-000000?style=flat)](https://bloclibrary.dev/)
 
-**Backend:** `Node.js` `Express` `Python` `REST APIs` `JWT`
-
-**Datos:** `MongoDB` `PostgreSQL` `Supabase`
-
-**Mobile:** `Flutter` `Dart` `Clean Architecture` `BLoC`
-
-**DevOps & testing:** `Docker` `Vercel` `Cypress` `Jest`
+**DevOps & testing:** [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/) [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://vercel.com/) [![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white)](https://www.cypress.io/) [![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)](https://jestjs.io/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 
 ---
 
@@ -71,18 +65,53 @@ Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbull
 <tr>
 <td width="50%">
 
-**[Summer Dent](https://aplicacion-summer-dent.vercel.app/login)**
+**[Eventual](https://github.com/Pa004/Eventual)**
 
-Sistema de gestión dental **en producción**, multi-sede.
-- 90+ pacientes · 137+ citas gestionadas
-- Autenticación JWT · roles por sede
-- Testing E2E con Cypress
+Sistema de gestión de eventos construido **en solitario** de punta a punta.
+- 13/13 requisitos funcionales implementados
+- 137 tests, 100% pass rate (Jest/Supertest + bloc_test/mocktail)
+- RBAC para 4 roles, módulo financiero completo
 
-`React` `Vite` `Node.js` `Express` `JWT` `Cypress`
-
-*Código privado.*
+`Node.js` `Express` `Flutter` `BLoC` `Supabase` `JWT`
 
 </td>
+<td width="50%">
+
+**[futboltipster](https://github.com/Pa004/futboltipster)**
+
+Predicciones estadísticas de fútbol (1X2 y ~20 mercados derivados) con modelos Dixon-Coles y Negative-Binomial y bandas de confianza.
+- Monorepo full-stack: ml-service FastAPI, servidor Express, web React
+
+`TypeScript` `Python` `FastAPI` `React` `Express`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[chatcito](https://github.com/Pa004/chatcito)**
+
+Chat en tiempo real con Flutter y Firebase.
+- Autenticación segura y mensajería privada
+- Push notifications con FCM · Riverpod y Material 3
+
+`Dart` `Flutter` `Firebase` `Riverpod`
+
+</td>
+<td width="50%">
+
+**[e2e-APIs](https://github.com/Pa004/e2e-APIs)**
+
+Suite de testing automatizado de APIs y UI end-to-end con Cypress y TypeScript.
+- REST API testing · Page Object Model · custom commands
+- Reporting HTML con Mochawesome
+- CI/CD con GitHub Actions
+
+`TypeScript` `Cypress` `Mochawesome` `GitHub Actions`
+
+</td>
+</tr>
+<tr>
 <td width="50%">
 
 **[Roomify](https://github.com/Pa004/roomify)**
@@ -93,20 +122,6 @@ Plataforma de IA que transforma planos 2D en espacios 3D realistas.
 - Contenerizado con Docker
 
 `React 19` `TypeScript` `Tailwind CSS` `Docker` `Puter`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[Eventual](https://github.com/Pa004/Eventual)**
-
-Sistema de gestión de eventos construido **en solitario** de punta a punta.
-- 13/13 requisitos funcionales implementados
-- 137 tests, 100% pass rate (Jest/Supertest + bloc_test/mocktail)
-- RBAC para 4 roles, módulo financiero completo
-
-`Node.js` `Express` `Flutter` `BLoC` `Supabase` `JWT`
 
 </td>
 <td width="50%">
@@ -121,29 +136,6 @@ Sistema de autenticación completo.
 
 </td>
 </tr>
-<tr>
-<td width="50%">
-
-**[futboltipster](https://github.com/Pa004/futboltipster)**
-
-Predicciones estadísticas de fútbol (1X2 y ~20 mercados derivados) con modelos Dixon-Coles y Negative-Binomial y bandas de confianza.
-- Monorepo full-stack: ml-service FastAPI, servidor Express, web React
-
-`TypeScript` `Python` `FastAPI` `React` `Express`
-
-</td>
-<td width="50%">
-
-**[chatcito](https://github.com/Pa004/chatcito)**
-
-Chat en tiempo real con Flutter y Firebase.
-- Autenticación segura y mensajería privada
-- Push notifications con FCM · Riverpod y Material 3
-
-`Dart` `Flutter` `Firebase` `Riverpod`
-
-</td>
-</tr>
 </table>
 
 ---
@@ -152,7 +144,7 @@ Chat en tiempo real con Flutter y Firebase.
 
 <div align="center">
 
-<img src="assets/portfolio.png" alt="Portfolio de Pablo Domínguez" />
+<img src="assets/portfolio.png" alt="Portfolio de Pablo Domínguez" width="720" />
 
 **[Ver portfolio completo →](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
 
@@ -164,12 +156,15 @@ Chat en tiempo real con Flutter y Firebase.
 
 <div align="center">
 
-<img src=".gitskins/card.svg" alt="GitHub profile card" width="720" />
+<img src="assets/stats.svg" alt="Estadísticas de GitHub" width="480" />
 
 <br />
 
-<img src=".gitskins/stats.png" alt="GitHub stats" />
-<img src=".gitskins/streak.png" alt="Contribución streak" />
+<img src="assets/languages.svg" alt="Lenguajes más usados" width="480" />
+
+<br />
+
+<img src="https://streak-stats.demolab.com/?user=Pa004&theme=github-dark" alt="Racha de contribuciones" />
 
 </div>
 
@@ -205,15 +200,5 @@ Pipelines de datos · ETL · Data Warehousing · Infraestructura de datos
 </td>
 </tr>
 </table>
-
-</div>
-
----
-
-### 📈 Contribuciones
-
-<div align="center">
-
-<img src=".gitskins/heatmap.svg" alt="Gráfico de contribuciones animado" />
 
 </div>

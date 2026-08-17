@@ -1,0 +1,48 @@
+name: Refresh stats
+
+# Regenerates the committed stats SVGs from the public GitHub API so the README
+# never hot-links a third-party stats service (no broken images, data stays current).
+
+on:
+  # Refresh once a day so numbers stay up to date.
+  schedule:
+    - cron: "0 6 * * *"
+  # Also refresh when the generator itself changes.
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/generate-stats.js"
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate stats SVGs
+        run: node .github/scripts/generate-stats.js
+
+      - name: Commit refreshed stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/languages.svg
+          if git diff --cached --quiet; then
+            echo "No stats changes."
+          else
+            git commit -m "chore(stats): refresh profile stats"
+            git push
+          fi
