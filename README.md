@@ -162,10 +162,6 @@ Sistema de autenticación completo.
 
 <img src="assets/languages.svg" alt="Lenguajes más usados" width="480" />
 
-<br />
-
-<img src="https://streak-stats.demolab.com/?user=Pa004&theme=github-dark" alt="Racha de contribuciones" />
-
 </div>
 
 ---
