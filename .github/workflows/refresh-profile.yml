@@ -61,6 +61,7 @@ jobs:
           path: .3d-generator
 
       - name: Generate 3D contribution calendar
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -82,13 +83,20 @@ jobs:
           cp profile-3d-contrib/profile-green-dual.svg assets/profile-3d.svg
 
       - name: Generate contribution snake
-        uses: Platane/snk@v3.5.0
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          outputs: |
-            assets/snake.svg
-            assets/snake-dark.svg?palette=github-dark
+        continue-on-error: true
+        run: |
+          for i in 1 2 3 4 5; do
+            echo "Snake generation attempt $i"
+            if npx --yes generate-snake-animation@3 --github_user=${{ github.repository_owner }} "--output=assets/snake.svg" "--output=assets/snake-dark.svg?palette=github-dark"; then
+              echo "Snake generated on attempt $i"
+              break
+            fi
+            echo "Attempt $i failed (transient 503). Retrying in 30s..."
+            sleep 30
+          done
+          if [ ! -s assets/snake.svg ]; then
+            echo "::warning::Snake generation failed after 5 attempts; skipping this refresh"
+          fi
 
       - name: Commit and push generated assets
         run: |
