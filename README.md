@@ -62,9 +62,9 @@
 
 ---
 
-<details open id="english">
+<details open id="english" name="lang">
 
-<summary>🇺🇸 English</summary>
+<summary>🇺🇸 English · click to collapse/expand</summary>
 
 ### 👋 About me
 
@@ -227,9 +227,9 @@ Data pipelines · ETL · Data Warehousing · Data infrastructure
 
 ---
 
-<details id="español">
+<details id="español" name="lang">
 
-<summary>🇪🇸 Español</summary>
+<summary>🇪🇸 Español · clic para expandir/colapsar</summary>
 
 ### 👋 Sobre mí
 
