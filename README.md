@@ -12,7 +12,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pa004)
 
-**[🇺🇸 English](#english) · [🇪🇸 Español](#español)**
+**[🇺🇸 English](#user-content-english) · [🇪🇸 Español](#user-content-español)**
 
 </div>
 
