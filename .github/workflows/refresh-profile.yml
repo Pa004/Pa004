@@ -84,6 +84,8 @@ jobs:
 
       - name: Generate contribution snake
         continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for i in 1 2 3 4 5; do
             echo "Snake generation attempt $i"
