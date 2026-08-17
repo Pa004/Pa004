@@ -22,13 +22,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2.0.2
+      - uses: actions/setup-node@v4
         with:
-          card: stats
-          options: theme=github-dark&hide_border=true&show_icons=true
-          path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 24
+
+      - name: Generate stats card
+        env:
+          NODE_PATH: ${{ github.workspace }}/.grs/node_modules
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm install --no-save --prefix .grs @stats-organization/github-readme-stats-core@2.1.3
+          node scripts/render-stats.cjs
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2.0.2
@@ -99,6 +104,16 @@ jobs:
           if [ ! -s assets/snake.svg ]; then
             echo "::warning::Snake generation failed after 5 attempts; skipping this refresh"
           fi
+
+      - name: Verify generated cards
+        run: |
+          for card in stats languages streak activity-graph; do
+            if grep -q "Something went wrong" "assets/$card.svg"; then
+              echo "::error::$card.svg is a broken error card; not committing"
+              exit 1
+            fi
+          done
+          echo "All cards OK"
 
       - name: Commit and push generated assets
         run: |
