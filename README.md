@@ -18,21 +18,7 @@
 
 ---
 
-<a id="english"></a>
-
-## English
-
-### 👋 About me
-
-Full Stack Developer specialized in React, TypeScript, and Node.js. I build complete web applications with a focus on clean architecture, secure authentication, automated testing, and deployment. Currently studying Software Engineering at ESPE (6th semester of 8) and looking for remote opportunities to contribute to impactful products.
-
-- 🌎 Ecuador (GMT-5)
-- 📫 pablodo004@gmail.com
-- 🔗 [Portfolio](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
-
----
-
-### 📊 GitHub Stats
+### 📊 GitHub Stats · Estadísticas
 
 <div align="center">
 
@@ -47,7 +33,7 @@ Full Stack Developer specialized in React, TypeScript, and Node.js. I build comp
 
 ---
 
-### 📈 Activity
+### 📈 Activity · Actividad
 
 <div align="center">
 
@@ -61,6 +47,32 @@ Full Stack Developer specialized in React, TypeScript, and Node.js. I build comp
 </picture>
 
 </div>
+
+---
+
+### 🖼️ Portfolio
+
+<div align="center">
+
+<img src="assets/portfolio.png" alt="Pablo Domínguez portfolio" width="720" />
+
+**[Portfolio ↗](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
+
+</div>
+
+---
+
+<details open id="english">
+
+<summary>🇺🇸 English</summary>
+
+### 👋 About me
+
+Full Stack Developer specialized in React, TypeScript, and Node.js. I build complete web applications with a focus on clean architecture, secure authentication, automated testing, and deployment. Currently studying Software Engineering at ESPE (6th semester of 8) and looking for remote opportunities to contribute to impactful products.
+
+- 🌎 Ecuador (GMT-5)
+- 📫 pablodo004@gmail.com
+- 🔗 [Portfolio](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
 
 ---
 
@@ -178,18 +190,6 @@ Complete authentication system.
 
 ---
 
-### 🖼️ Portfolio
-
-<div align="center">
-
-<img src="assets/portfolio.png" alt="Pablo Domínguez portfolio" width="720" />
-
-**[View full portfolio →](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
-
-</div>
-
----
-
 ### 📜 Certifications
 
 <div align="center">
@@ -223,11 +223,13 @@ Data pipelines · ETL · Data Warehousing · Data infrastructure
 
 </div>
 
+</details>
+
 ---
 
-<a id="español"></a>
+<details id="español">
 
-## Español
+<summary>🇪🇸 Español</summary>
 
 ### 👋 Sobre mí
 
@@ -236,38 +238,6 @@ Full Stack Developer especializado en React, TypeScript y Node.js. Desarrollo ap
 - 🌎 Ecuador (GMT-5)
 - 📫 pablodo004@gmail.com
 - 🔗 [Portfolio](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
-
----
-
-### 📊 Estadísticas
-
-<div align="center">
-
-<img src="assets/stats.svg" alt="Estadísticas de GitHub" width="440" />
-<img src="assets/languages.svg" alt="Lenguajes más usados" width="290" />
-
-<br />
-
-<img src="assets/streak.svg" alt="Racha de contribuciones" width="500" />
-
-</div>
-
----
-
-### 📈 Actividad
-
-<div align="center">
-
-<img src="assets/activity-graph.svg" alt="Gráfico de actividad" width="760" />
-
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
-  <img src="assets/snake.svg" alt="Serpiente de contribuciones" width="700" />
-</picture>
-
-</div>
 
 ---
 
@@ -385,18 +355,6 @@ Sistema de autenticación completo.
 
 ---
 
-### 🖼️ Portfolio
-
-<div align="center">
-
-<img src="assets/portfolio.png" alt="Portfolio de Pablo Domínguez" width="720" />
-
-**[Ver portfolio completo →](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
-
-</div>
-
----
-
 ### 📜 Certificaciones
 
 <div align="center">
@@ -429,3 +387,5 @@ Pipelines de datos · ETL · Data Warehousing · Infraestructura de datos
 </table>
 
 </div>
+
+</details>
