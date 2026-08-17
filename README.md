@@ -49,10 +49,6 @@ Full Stack Developer especializado en React, TypeScript y Node.js. Desarrollo ap
 
 <br />
 
-<img src="assets/profile-3d.svg" alt="Calendario 3D de contribuciones" width="750" />
-
-<br />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
   <img src="assets/snake.svg" alt="Serpiente de contribuciones" width="700" />
@@ -76,10 +72,6 @@ Coautor de *"Comparative Study of BETO, CNN1D and BiLSTM for Automatic Cyberbull
 ---
 
 ### 🛠️ Tecnologías
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,nextjs,tailwind,vite,nodejs,express,python,fastapi,mongodb,postgresql,supabase,flutter,dart,firebase,docker,vercel,jest,githubactions&perline=10" alt="Tech stack" />
-</p>
 
 **Frontend:** [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/) [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev/)
 
