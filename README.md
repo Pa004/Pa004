@@ -9,7 +9,7 @@
 [![Open to work](https://img.shields.io/badge/Open_to_work-16a34a?style=for-the-badge)](mailto:pablodo004@gmail.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablodo004@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pabl004-dev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://pablo004.is-a.dev/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pa004)
 
 **[🇺🇸 English](#user-content-english) · [🇪🇸 Español](#user-content-español)**
@@ -56,7 +56,7 @@
 
 <img src="assets/portfolio.png" alt="Pablo Domínguez portfolio" width="720" />
 
-**[Portfolio ↗](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/)**
+**[Portfolio ↗](https://pablo004.is-a.dev/)**
 
 </div>
 
@@ -72,7 +72,7 @@ Full Stack Developer specialized in React, TypeScript, and Node.js. I build comp
 
 - 🌎 Ecuador (GMT-5)
 - 📫 pablodo004@gmail.com
-- 🔗 [Portfolio](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
+- 🔗 [Portfolio](https://pablo004.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
 
 ---
 
@@ -237,7 +237,7 @@ Full Stack Developer especializado en React, TypeScript y Node.js. Desarrollo ap
 
 - 🌎 Ecuador (GMT-5)
 - 📫 pablodo004@gmail.com
-- 🔗 [Portfolio](https://portfolio-ochre-xi-ba44zo6k9y.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
+- 🔗 [Portfolio](https://pablo004.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [ORCID](https://orcid.org/0009-0000-6400-026X)
 
 ---
 
