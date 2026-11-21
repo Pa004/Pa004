@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
+  <title id="title">Full-stack developer profile graphic</title>
+  <desc id="desc">An abstract developer workflow connecting web products, developer tools, and quality automation.</desc>
+  <style>
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 1; } }
+  </style>
+  <rect width="960" height="220" rx="12" fill="#f6f8fa"/>
+  <path d="M58 170H285L405 65H604L714 142H902" fill="none" stroke="#d0d7de" stroke-width="2"/>
+  <path d="M405 65L535 150" fill="none" stroke="#0969da" stroke-width="2" stroke-dasharray="5 7"/>
+  <circle cx="58" cy="170" r="7" fill="#0969da"/>
+  <circle cx="405" cy="65" r="7" fill="#8250df"/>
+  <circle cx="604" cy="65" r="7" fill="#1a7f37"/>
+  <circle cx="714" cy="142" r="7" fill="#bf8700"/>
+  <circle cx="902" cy="142" r="7" fill="#0969da"/>
+  <circle class="pulse" cx="890" cy="38" r="6" fill="#1a7f37"/>
+  <text x="58" y="54" fill="#1f2328" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">BUILDING SOFTWARE THAT SHIPS</text>
+  <text x="58" y="90" fill="#57606a" font-family="Arial, sans-serif" font-size="13">WEB PRODUCTS</text>
+  <text x="360" y="42" fill="#57606a" font-family="Arial, sans-serif" font-size="13">DEVELOPER TOOLS</text>
+  <text x="642" y="116" fill="#57606a" font-family="Arial, sans-serif" font-size="13">QUALITY AUTOMATION</text>
+  <text x="58" y="202" fill="#57606a" font-family="Arial, sans-serif" font-size="12">React + TypeScript</text>
+  <text x="360" y="202" fill="#57606a" font-family="Arial, sans-serif" font-size="12">Python + FastAPI</text>
+  <text x="682" y="202" fill="#57606a" font-family="Arial, sans-serif" font-size="12">Remote-ready · GMT-5</text>
+  <text x="714" y="42" fill="#1a7f37" font-family="Arial, sans-serif" font-size="12" font-weight="700">AVAILABLE</text>
+</svg>
