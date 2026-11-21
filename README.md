@@ -18,23 +18,13 @@
 > [!NOTE]
 > Available for remote junior full-time or part-time roles · Ecuador (GMT-5)
 
-### What I build
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" />
-  <img src="assets/divider-sober-light.svg" alt="" width="960" />
-</picture>
+### What I build<br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" /><img src="assets/divider-sober-light.svg" alt="" width="960" /></picture>
 
 | Web products | Developer tooling | Quality & delivery |
 | --- | --- | --- |
 | UI, APIs, data models, authentication and deployment. | Static analysis, CLI, API and MCP integrations. | Automated tests, CI, documentation and live demos. |
 
-### Selected work
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" />
-  <img src="assets/divider-sober-light.svg" alt="" width="960" />
-</picture>
+### Selected work<br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" /><img src="assets/divider-sober-light.svg" alt="" width="960" /></picture>
 
 <table>
 <tr>
@@ -98,22 +88,32 @@ Offline-first PWA for learning memorable master passphrases through guided recal
 <details>
 <summary>Product previews</summary>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<kbd>Rootline</kbd>
+
 <a href="https://rootline-73m.pages.dev/">
-  <img src="https://raw.githubusercontent.com/Pa004/rootline/27c3d0a188b30c81eadba123125818fc6f0c75bb/assets/screenshot-dashboard.png" alt="Rootline dashboard with ranked candidate change and evidence graph" width="480" />
+  <img src="https://raw.githubusercontent.com/Pa004/rootline/27c3d0a188b30c81eadba123125818fc6f0c75bb/assets/screenshot-dashboard.png" alt="Rootline dashboard with ranked candidate change and evidence graph" width="100%" />
 </a>
 
+</td>
+<td width="50%" valign="top">
+
+<kbd>SciKick</kbd>
+
 <a href="https://scikick.pages.dev/">
-  <img src="https://raw.githubusercontent.com/Pa004/scikick/3a46eafec912eb1d29e5a6021ff67a1b946d2224/docs/screenshots/accents/port-f1-light.png" alt="SciKick match analytics interface with probability and value data" width="480" />
+  <img src="https://raw.githubusercontent.com/Pa004/scikick/3a46eafec912eb1d29e5a6021ff67a1b946d2224/docs/screenshots/accents/port-f1-light.png" alt="SciKick match analytics interface with probability and value data" width="100%" />
 </a>
+
+</td>
+</tr>
+</table>
 
 </details>
 
-### Experience and education
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" />
-  <img src="assets/divider-sober-light.svg" alt="" width="960" />
-</picture>
+### Experience and education<br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" /><img src="assets/divider-sober-light.svg" alt="" width="960" /></picture>
 
 <div align="center">
 
@@ -132,24 +132,14 @@ Scholarship for Academic Distinction · Top quintile of the cohort · 2022-prese
 
 **Additional work:** [Eventual](https://github.com/Pa004/Eventual), an academic event-management system built with Flutter, Express, PostgreSQL, and Supabase.
 
-### Core stack
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" />
-  <img src="assets/divider-sober-light.svg" alt="" width="960" />
-</picture>
+### Core stack<br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" /><img src="assets/divider-sober-light.svg" alt="" width="960" /></picture>
 
 **Frontend:** React, TypeScript, Next.js, Tailwind CSS  
 **Backend:** Node.js, Express, Python, FastAPI, REST APIs  
 **Data and infrastructure:** PostgreSQL, Supabase, SQLite, Docker, Cloudflare  
 **Quality:** pytest, Vitest, Cypress, GitHub Actions
 
-### Credentials
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" />
-  <img src="assets/divider-sober-light.svg" alt="" width="960" />
-</picture>
+### Credentials<br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-sober-dark.svg" /><img src="assets/divider-sober-light.svg" alt="" width="960" /></picture>
 
 - [AI Engineer for Developers Associate, DataCamp](https://www.datacamp.com/certificate/AIEDA0010543717785) · June 2026-June 2028
 - [Data Engineer Certificate, DataCamp](https://www.datacamp.com/certificate/DE0015585598056) · June 2026-June 2028
