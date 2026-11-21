@@ -10,6 +10,11 @@ Available for remote junior full-time or part-time roles · Ecuador (GMT-5)
 
 [Portfolio](https://pablo004.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/pabl004-dev) · [Email](mailto:pablodo004@gmail.com)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
+  <img src="assets/profile-hero-light.svg" alt="" width="960" />
+</picture>
+
 </div>
 
 ## What I build
@@ -23,12 +28,20 @@ Available for remote junior full-time or part-time roles · Ecuador (GMT-5)
 ### [Rootline](https://github.com/Pa004/rootline)
 Causal evidence analysis for software regressions. Combines Git history, static analysis, test results, and a React evidence graph to rank candidate changes with inspectable reasoning.
 
+<a href="https://rootline-73m.pages.dev/">
+  <img src="https://raw.githubusercontent.com/Pa004/rootline/27c3d0a188b30c81eadba123125818fc6f0c75bb/assets/screenshot-dashboard.png" alt="Rootline dashboard with ranked candidate change and evidence graph" width="720" />
+</a>
+
 `Python` `FastAPI` `React` `tree-sitter` `MCP` `PyPI`
 
 [Live demo](https://rootline-73m.pages.dev/) · [Repository](https://github.com/Pa004/rootline)
 
 ### [SciKick](https://github.com/Pa004/scikick)
 Football analytics product with team-specific probabilities, value checks, and an accessible bilingual interface. Built as a React and FastAPI system with automated data pipelines and Cloudflare deployment.
+
+<a href="https://scikick.pages.dev/">
+  <img src="https://raw.githubusercontent.com/Pa004/scikick/3a46eafec912eb1d29e5a6021ff67a1b946d2224/docs/screenshots/accents/port-f1-light.png" alt="SciKick match analytics interface with probability and value data" width="720" />
+</a>
 
 `React` `TypeScript` `FastAPI` `SQLite` `LightGBM` `Cloudflare`
 
