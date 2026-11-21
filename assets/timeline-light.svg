@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 110" width="960" height="110" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 110" width="600" height="110" role="img" aria-labelledby="title desc">
   <title id="title">Career timeline</title>
   <desc id="desc">Freelance full-stack work, seventh semester at ESPE, and DataCamp certifications.</desc>
   <defs>
@@ -14,15 +14,15 @@
     @keyframes ring{0%,100%{opacity:.35;transform:scale(.88)}50%{opacity:1;transform:scale(1.12)}}
     @media (prefers-reduced-motion:reduce){.ring{animation:none;opacity:1;transform:none}}
   </style>
-  <line x1="100" y1="52" x2="860" y2="52" stroke="#d0d7de" stroke-width="2"/>
-  <circle class="ring" cx="480" cy="52" r="15" fill="none" stroke="url(#g)" stroke-width="2"/>
-  <circle cx="100" cy="52" r="7" fill="url(#g)"/>
-  <circle cx="480" cy="52" r="7" fill="url(#g)"/>
-  <circle cx="860" cy="52" r="7" fill="url(#g)"/>
-  <text x="100" y="32" text-anchor="middle" fill="#1f2328" font-family="Arial, sans-serif" font-size="14" font-weight="700">Freelance</text>
-  <text x="100" y="84" text-anchor="middle" fill="#57606a" font-family="Arial, sans-serif" font-size="12">Full-stack delivery</text>
-  <text x="480" y="32" text-anchor="middle" fill="#1f2328" font-family="Arial, sans-serif" font-size="14" font-weight="700">ESPE</text>
-  <text x="480" y="84" text-anchor="middle" fill="#57606a" font-family="Arial, sans-serif" font-size="12">7th semester · 2022-present</text>
-  <text x="860" y="32" text-anchor="middle" fill="#1f2328" font-family="Arial, sans-serif" font-size="14" font-weight="700">Certifications</text>
-  <text x="860" y="84" text-anchor="middle" fill="#57606a" font-family="Arial, sans-serif" font-size="12">DataCamp · 2026-2028</text>
+  <line x1="80" y1="52" x2="520" y2="52" stroke="#d0d7de" stroke-width="2"/>
+  <circle class="ring" cx="300" cy="52" r="15" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="80" cy="52" r="7" fill="url(#g)"/>
+  <circle cx="300" cy="52" r="7" fill="url(#g)"/>
+  <circle cx="520" cy="52" r="7" fill="url(#g)"/>
+  <text x="80" y="32" text-anchor="middle" fill="#1f2328" font-family="Arial, sans-serif" font-size="15" font-weight="700">Freelance</text>
+  <text x="80" y="84" text-anchor="middle" fill="#57606a" font-family="Arial, sans-serif" font-size="12">Full-stack delivery</text>
+  <text x="300" y="32" text-anchor="middle" fill="#1f2328" font-family="Arial, sans-serif" font-size="15" font-weight="700">ESPE</text>
+  <text x="300" y="84" text-anchor="middle" fill="#57606a" font-family="Arial, sans-serif" font-size="12">7th semester · 2022-present</text>
+  <text x="520" y="32" text-anchor="middle" fill="#1f2328" font-family="Arial, sans-serif" font-size="15" font-weight="700">Certifications</text>
+  <text x="520" y="84" text-anchor="middle" fill="#57606a" font-family="Arial, sans-serif" font-size="12">DataCamp · 2026-2028</text>
 </svg>
