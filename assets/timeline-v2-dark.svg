@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 110" width="600" height="110" role="img" aria-labelledby="title desc">
+  <title id="title">Career timeline</title>
+  <desc id="desc">Freelance full-stack work, seventh semester at ESPE, and DataCamp certifications.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.35" stop-color="#818cf8"/>
+      <stop offset="0.7" stop-color="#e879f9"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 3s ease-in-out infinite}
+    @keyframes ring{0%,100%{opacity:.35;transform:scale(.88)}50%{opacity:1;transform:scale(1.12)}}
+    @media (prefers-reduced-motion:reduce){.ring{animation:none;opacity:1;transform:none}}
+  </style>
+  <line x1="80" y1="52" x2="520" y2="52" stroke="#30363d" stroke-width="2"/>
+  <circle class="ring" cx="300" cy="52" r="15" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="80" cy="52" r="7" fill="url(#g)"/>
+  <circle cx="300" cy="52" r="7" fill="url(#g)"/>
+  <circle cx="520" cy="52" r="7" fill="url(#g)"/>
+  <text x="80" y="32" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="15" font-weight="700">Freelance</text>
+  <text x="80" y="84" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">Full-stack delivery</text>
+  <text x="300" y="32" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="15" font-weight="700">ESPE</text>
+  <text x="300" y="84" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">7th semester · 2022-present</text>
+  <text x="520" y="32" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="15" font-weight="700">Certifications</text>
+  <text x="520" y="84" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">DataCamp · 2026-2028</text>
+</svg>

@@ -79,8 +79,8 @@ Offline-first PWA for learning memorable master passphrases through guided recal
 <img src="assets/section-divider.svg" alt="" width="960" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg" />
-  <img src="assets/timeline-light.svg" alt="Career timeline: freelance full-stack work, 7th semester at ESPE, and DataCamp certifications" width="600" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-v2-dark.svg" />
+  <img src="assets/timeline-v2-light.svg" alt="Career timeline: freelance full-stack work, 7th semester at ESPE, and DataCamp certifications" width="600" />
 </picture>
 
 **Freelance Full-Stack Developer** · Summer Dent and Roomify  
