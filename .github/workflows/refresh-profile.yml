@@ -69,7 +69,7 @@ jobs:
             fi
             echo "Attempt $i failed (transient 503). Retrying in 30s..."
             sleep 30
-          fi
+          done
           if [ ! -s assets/snake.svg ]; then
             echo "::warning::Snake generation failed after 5 attempts; skipping this refresh"
           fi
