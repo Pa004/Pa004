@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/avatar.svg" alt="Pablo Domínguez avatar" width="110" />
+<img src="assets/avatar-hex.svg" alt="Pablo Domínguez avatar" width="110" />
 
 # Pablo Domínguez
 
