@@ -1,22 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="title desc"><title id="title">Pablo Domínguez avatar</title><desc id="desc">An animated pixel monogram that assembles from colored blocks.</desc><!-- Pixel pattern derived from DiceBear Identicon (CC0 1.0): https://www.dicebear.com -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-labelledby="title desc"><title id="title">Pablo Domínguez avatar</title><desc id="desc">A hexagon signal mark with a gradient core and three orbiting nodes.</desc><!-- Original design derived from a DiceBear Identicon (CC0 1.0): https://www.dicebear.com -->
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.35" stop-color="#818cf8"/>
+      <stop offset="0.7" stop-color="#e879f9"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="hexClip"><path d="M50 6 L88.1 28 L88.1 72 L50 94 L11.9 72 L11.9 28 Z"/></clipPath>
+  </defs>
   <style>
-    .b{transform-box:fill-box;transform-origin:center;animation:breathe 3s ease-in-out infinite}
-    @keyframes breathe{0%,100%{opacity:.5;transform:scale(.82)}50%{opacity:1;transform:scale(1)}}
-    @media (prefers-reduced-motion:reduce){.b{animation:none;opacity:1;transform:none}}
+    .hex{transform-box:view-box;transform-origin:50px 50px;animation:turn 18s linear infinite}
+    .orbit{transform-box:view-box;transform-origin:50px 50px;animation:turn 9s linear infinite reverse}
+    .core{transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-in-out infinite}
+    .shine{animation:sweep 4.5s ease-in-out infinite}
+    @keyframes turn{to{transform:rotate(360deg)}}
+    @keyframes pulse{0%,100%{opacity:.7;transform:scale(.9)}50%{opacity:1;transform:scale(1.06)}}
+    @keyframes sweep{0%,100%{transform:translateX(-80px)}50%{transform:translateX(80px)}}
+    @media (prefers-reduced-motion:reduce){.hex,.orbit,.core,.shine{animation:none;opacity:1;transform:none}}
   </style>
-  <rect width="100" height="100" rx="22" fill="#0d1117"/>
-  <rect class="b" x="6" y="6" width="16" height="16" rx="3" fill="#58a6ff" style="animation-delay:0s"/>
-  <rect class="b" x="24" y="6" width="16" height="16" rx="3" fill="#58a6ff" style="animation-delay:-.2s"/>
-  <rect class="b" x="60" y="6" width="16" height="16" rx="3" fill="#58a6ff" style="animation-delay:-.4s"/>
-  <rect class="b" x="78" y="6" width="16" height="16" rx="3" fill="#58a6ff" style="animation-delay:-.6s"/>
-  <rect class="b" x="42" y="24" width="16" height="16" rx="3" fill="#bc8cff" style="animation-delay:-.8s"/>
-  <rect class="b" x="24" y="42" width="16" height="16" rx="3" fill="#3fb950" style="animation-delay:-1s"/>
-  <rect class="b" x="60" y="42" width="16" height="16" rx="3" fill="#3fb950" style="animation-delay:-1.2s"/>
-  <rect class="b" x="6" y="60" width="16" height="16" rx="3" fill="#e3b341" style="animation-delay:-1.4s"/>
-  <rect class="b" x="78" y="60" width="16" height="16" rx="3" fill="#e3b341" style="animation-delay:-1.6s"/>
-  <rect class="b" x="6" y="78" width="16" height="16" rx="3" fill="#f0883e" style="animation-delay:-1.8s"/>
-  <rect class="b" x="24" y="78" width="16" height="16" rx="3" fill="#f0883e" style="animation-delay:-2s"/>
-  <rect class="b" x="42" y="78" width="16" height="16" rx="3" fill="#f0883e" style="animation-delay:-2.2s"/>
-  <rect class="b" x="60" y="78" width="16" height="16" rx="3" fill="#f0883e" style="animation-delay:-2.4s"/>
-  <rect class="b" x="78" y="78" width="16" height="16" rx="3" fill="#f0883e" style="animation-delay:-2.6s"/>
+  <path d="M50 6 L88.1 28 L88.1 72 L50 94 L11.9 72 L11.9 28 Z" fill="#0d1117" stroke="url(#brand)" stroke-width="2.6"/>
+  <g clip-path="url(#hexClip)">
+    <rect class="shine" x="0" y="0" width="34" height="100" fill="url(#shine)"/>
+    <path class="hex" d="M50 20 L76 35 L76 65 L50 80 L24 65 L24 35 Z" fill="none" stroke="url(#brand)" stroke-width="1" opacity="0.45"/>
+  </g>
+  <g class="orbit" fill="url(#brand)">
+    <circle cx="50" cy="18" r="3.2"/>
+    <circle cx="77.7" cy="66" r="3.2" opacity="0.75"/>
+    <circle cx="22.3" cy="66" r="3.2" opacity="0.6"/>
+  </g>
+  <circle class="core" cx="50" cy="50" r="13" fill="url(#brand)"/>
+  <circle cx="50" cy="50" r="6" fill="#0d1117"/>
 </svg>
